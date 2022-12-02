@@ -20,7 +20,7 @@ header h1 {
 	margin-top: 80px;
 	text-transform: uppercase;
 	font-weight: bold;
-	padding: 5px 0px 0px 15px;
+	padding: 15px 0px 0px 15px;
 	font-size: 18px;
 	color: white;
 }
@@ -34,13 +34,13 @@ header p {
 }
 
 nav {
+	width: 375px;
 	height: 80px;
 	display: inline-block;
 	position: absolute;
 	background-color: #030A8C;
 	top: 0;
-	z-index: 1;
-}
+}	
 
 
 nav h2 {
@@ -56,6 +56,7 @@ ul {
     max-height: 0;
     transition: max-height .2s ease-out;
 	background-color: #2104D9;
+	
 }
 li a {
 	display: block;
@@ -66,11 +67,15 @@ li a {
 }
 
 [href="#home"] {
-    text-transform: capitalize;
+	text-transform: capitalize;
 	font-variant: small-caps;
 	font-weight: bold;
 	font-size: 30px;
+	position: absolute;
+	top: 0;
+	left: 90px;
 	padding: 15px 15px;
+	
 }
     h2, h3 {
 	font-weight: bold;
@@ -106,11 +111,12 @@ audio {
 }
 
 footer {
-    font-weight: bold;
+    text-align: center;
+	font-weight: bold;
     font-size: 10px;
 	padding: 5px;
     color: #590242;
-    text-align: center;
+   
 }
 
 .scroll {
@@ -129,7 +135,7 @@ footer {
 	bottom: 4px;
 	background-color: rgba(255,255,255,.75);
 	padding: 0 0 10px 10px;
-	width: 302px;
+	width: 300px;
 	height: 55px;
 }
 
@@ -144,7 +150,7 @@ footer {
 	border-radius: 5px;
 	font-weight: bold;
 	text-align: center;
-	margin: 10px 0 30px 32px;
+	margin: 10px;
 	font-size: 14px;
 	}		
 
@@ -168,6 +174,7 @@ label {
 }
 label span {
     background-color: white;
+	display: inline-block;
     height: 2px;
     position: relative;
     transition: background-color .2s ease-out;
